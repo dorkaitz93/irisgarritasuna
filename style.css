@@ -6,7 +6,9 @@ body {
     margin: 20px;
     background-color: gray;
 }
-
+header > img{
+    width: 20%;
+}
 .goiburua {
     background: black;
     color: white;
@@ -34,8 +36,15 @@ body {
 }
 
 
-
-
+.estekak{
+    
+    color:white
+}
+.estekak > a{
+    color: inherit;
+    background-color: blue;
+    text-decoration: none;
+}
 .datu-taula {
     width: 100%;
     border-collapse: collapse;
