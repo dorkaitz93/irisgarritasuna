@@ -1,0 +1,54 @@
+/* Klaseak euskaraz */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: gray;
+}
+
+.goiburua {
+    background: black;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nabigazioa ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nabigazioa a {
+    color: white;
+    text-decoration: none;
+}
+
+.galeria-ontzia {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+
+
+.datu-taula {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.datu-taula th, .datu-taula td {
+    padding: 10px;
+    text-align: left;
+}
+
+.oina {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 15px;
+}
